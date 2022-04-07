@@ -5,6 +5,7 @@ import {IoLogoWhatsapp} from 'react-icons/io';
 export const Footer =()=>{
     return(
         <>
+        <hr className='line'></hr>
         <footer>
             <p>Karen Agudelo &copy; 2022 Ghiphy-api</p>
             <ul>

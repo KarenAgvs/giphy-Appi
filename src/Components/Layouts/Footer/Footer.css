@@ -24,6 +24,10 @@ footer{
     justify-content: space-evenly;
 }
 
+.line{
+    width: 95%;
+}
+
 @media screen and (max-width:400px) {
     .header{
         background-color: blueviolet;

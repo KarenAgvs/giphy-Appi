@@ -4,6 +4,9 @@
     border: none;
     padding: 5px;
     border-radius: 3px;
+    background-color: #fff;
+    margin-right:2% ;
+    color: #000;
 }
 
 .form{
