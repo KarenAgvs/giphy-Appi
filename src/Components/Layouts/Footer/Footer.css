@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Rajdhani:wght@300&display=swap');
+
+*{
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+ul li{
+    margin: 10px;
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:400px) {
+    .header{
+        background-color: blueviolet;
+    }
+    
+}

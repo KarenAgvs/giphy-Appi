@@ -1,13 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import { Header } from './Components/Layouts/Header/Header';
+import { Header } from '../src/Components/Layouts/Header/Header.jsx';
+import { Footer } from './Components/Layouts/Footer/Footer.jsx';
+
 
 function App() {
   return (
-    <div className="App">
-     <Header/>
-    </div>
-  );
+    <>
+    <Header/>
+    <Footer/>
+    </>
+  )
+    
 }
 
 export default App;
