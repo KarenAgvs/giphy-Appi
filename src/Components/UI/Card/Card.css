@@ -1,0 +1,20 @@
+
+.card-element{
+    border:none ;
+    width: 20%;
+    height: 200px;
+    border-radius: 3px;
+    overflow: hidden;
+    border-left: #fff 1px solid;
+    border-right:#fff 1px solid ;
+    margin:auto;
+}
+
+.imagen{
+    width: 260px;
+    height: 150px;
+}
+
+.character-name{
+    text-align: center;
+}
