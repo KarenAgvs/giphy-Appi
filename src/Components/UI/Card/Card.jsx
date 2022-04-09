@@ -1,13 +1,12 @@
 import React from 'react'
 import './Card.css'
-import imagen from '../../../images/imagen.jpg'
 
 export const Card = () => {
   return (
     <div className='card-element'>
-        <img src={imagen} alt='imagen' className='imagen'/>
+        <img src= ''alt='' className='imagen'/>
         <div>
-            <p className='character-name'>Ejemplo</p>
+            <p className='character-name'></p>
         </div>
     </div>
   )
