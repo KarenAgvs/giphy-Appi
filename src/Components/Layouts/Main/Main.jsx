@@ -23,7 +23,7 @@ export const Main = () => {
       <>
       <SearchBar e={Getdata}/>
       <div>
-        <Card/>
+        <Card  element={giphy} key='Card'/>
       </div>
       </>
   )
