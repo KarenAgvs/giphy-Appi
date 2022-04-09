@@ -1,3 +1,4 @@
+import './Main.css'
 import React, { useState } from 'react'
 import axios from 'axios'
 import { Card } from '../../UI/Card/Card'
@@ -22,7 +23,7 @@ export const Main = () => {
   return (
       <>
       <SearchBar e={Getdata}/>
-      <div>
+      <div className='card-content'>
         <Card  element={giphy} key='Card'/>
       </div>
       </>
